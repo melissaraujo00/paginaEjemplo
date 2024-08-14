@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitio Web Completo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #3f51b5;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        nav {
+            background-color: #2c387e;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            background-color: #3f51b5;
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 2em;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            margin: 20px 0 0 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .section {
+            background-color: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .section h3 {
+            margin-top: 0;
+            color: #3f51b5;
+        }
+
+        .section p {
+            font-size: 1.1em;
+            line-height: 1.6em;
+        }
+
+        .grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .grid-item {
+            flex: 1;
+            min-width: 280px;
+            background-color: #e3e7f1;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .grid-item img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+
+        .grid-item h4 {
+            margin-top: 10px;
+            color: #2c387e;
+        }
+
+        .grid-item p {
+            font-size: 1em;
+            color: #555;
+        }
+
+        footer {
+            background-color: #2c387e;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a Mi Sitio Web Completo</h1>
+    </header>
+
+    <nav>
+        <a href="#sobre-nosotros">Sobre Nosotros</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#galeria">Galería</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <div class="hero">
+        <h2>Tu Ventana al Mundo Digital</h2>
+        <p>Descubre más sobre lo que hacemos y cómo podemos ayudarte a alcanzar tus metas.</p>
+    </div>
+
+    <div class="container">
+        <section id="sobre-nosotros" class="section">
+            <h3>Sobre Nosotros</h3>
+            <p>Somos una empresa dedicada a proporcionar soluciones digitales innovadoras. Nuestro equipo está compuesto por profesionales apasionados que trabajan juntos para ofrecer productos y servicios de alta calidad.</p>
+        </section>
+
+        <section id="servicios" class="section">
+            <h3>Nuestros Servicios</h3>
+            <p>Ofrecemos una amplia gama de servicios para satisfacer las necesidades de nuestros clientes, incluyendo desarrollo web, diseño gráfico, marketing digital, y más.</p>
+        </section>
+
+        <section id="galeria" class="section">
+            <h3>Galería</h3>
+            <div class="grid">
+                <div class="grid-item">
+                    <img src="https://via.placeholder.com/300" alt="Proyecto 1">
+                    <h4>Proyecto 1</h4>
+                    <p>Descripción breve del proyecto 1.</p>
+                </div>
+                <div class="grid-item">
+                    <img src="https://via.placeholder.com/300" alt="Proyecto 2">
+                    <h4>Proyecto 2</h4>
+                    <p>Descripción breve del proyecto 2.</p>
+                </div>
+                <div class="grid-item">
+                    <img src="https://via.placeholder.com/300" alt="Proyecto 3">
+                    <h4>Proyecto 3</h4>
+                    <p>Descripción breve del proyecto 3.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="section">
+            <h3>Contacto</h3>
+            <p>¿Tienes alguna pregunta o quieres trabajar con nosotros? No dudes en ponerte en contacto. Estamos aquí para ayudarte.</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>Hecho por Melissa Araujo © 2024</p>
+    </footer>
+</body>
+</html>
